@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bike Shop</title>
+<link rel="icon" type="image" href="pngwing.com.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: orange;
+  cursor: pointer;
+}
+li:last-child{
+  border-right: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ✅ Default laptop/desktop */
+p {
+  float: right;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ✅ Responsive Fix */
+@media screen and (max-width: 768px) {
+  p { float: none; text-align: center; padding: 20px; }
+  li { float: none; text-align: center; }
+  h1 { font-size: 30px; }
+}
+</style>
+</head>
+<body style="background-color: black;">
+<ul>
+<li><a href="bikelist.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<h1 style="color: white; font-size: 45px;text-align: center;">K-<b
+style="color:red;font-family:Helvetica;font-style: italic;">B</b>ikez</h1>
+<a href="bikelist.html"><img src="bike.png" width="600" height="600"></a>
+<p style="color:orange;font-size:20px;">
+  Welcome to our K-Bikez Shop<br>
+  It was one of the famous Bike shop in this city,<br>
+  It is the most budget friendly shop<br>
+  <b style="font-family: cursive;">"Click on the bike logo to see the various bikes"</b>
+</p>
+</body>
+</html>

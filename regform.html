@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bike Shop</title>
+<link rel="icon" type="image" href="pngwing.com.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: black;  /* Top-bottom black */
+        font-family: sans-serif;
+    }
+    h1 {
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        background: black;
+        color: white;
+    }
+    form {
+        background: orange;   /* 🔥 Full width orange */
+        color: black;
+        width: 100%;          /* full stretch */
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    form h2 {
+        text-align: center;
+        text-decoration: underline;
+        margin: 20px 0 15px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 6px;
+        border: 1px solid gray;
+        border-radius: 6px;
+        box-sizing: border-box;
+    }
+    textarea {
+        resize: vertical;
+        height: 70px;
+    }
+    button {
+        display: block;
+        background: red;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        margin: 20px auto 0;
+        cursor: pointer;
+    }
+    button a {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+    h3 {
+        color: darkviolet;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+    <h1>Register Form</h1>
+    <form>
+        <h2>Customer Details</h2>
+        <label>First Name:
+            <input type="text" placeholder="Enter your first name">
+        </label>
+        <label>Last Name:
+            <input type="text" placeholder="Enter your last name">
+        </label>
+        <label>Phone Number:
+            <input type="number" placeholder="Enter your phone no">
+        </label>
+        <label>ID-Proof:
+            <input type="text" placeholder="Enter your ID">
+        </label>
+        <label>Date of Birth:
+            <input type="date">
+        </label>
+        <label>Address:
+            <textarea placeholder="Enter your address"></textarea>
+        </label>
+        <label>Choose Your Model:
+            <select>
+                <option>KTM 290 DUKE</option>
+                <option>KAWASAKI</option>
+                <option>R15 V3</option>
+            </select>
+        </label>
+
+        <h2>Payment Details</h2>
+        <label>Pay Via:
+            <select>
+                <option>EMI</option>
+                <option>Cash on Delivery</option>
+            </select>
+        </label>
+        <label>Online Mode:
+            <select>
+                <option>CREDIT CARD</option>
+                <option>UPI</option>
+                <option>NET BANKING</option>
+            </select>
+        </label>
+
+        <h2>Bank Details</h2>
+        <label>Select Your Bank:
+            <select>
+                <option>Canara Bank</option>
+                <option>SBI</option>
+                <option>CUB</option>
+                <option>ICICI</option>
+            </select>
+        </label>
+        <label>Bank A/C No:
+            <input type="number" placeholder="Enter your A/C no">
+        </label>
+        <label>IFSC Code:
+            <input type="text" placeholder="Enter your IFSC">
+        </label>
+        <label>Branch Name:
+            <input type="text" placeholder="Enter your branch">
+        </label>
+
+        <h3>*If your payment through online mode</h3>
+        <button><a href="thankyou.html">Submit</a></button>
+    </form>
+</body>
+</html>

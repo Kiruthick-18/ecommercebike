@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bike Shop</title>
+<link rel="icon" type="image" href="pngwing.com.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>    body
+ {        background-color: black;
+        margin: 0;     
+   padding: 0;     
+   text-align: center; 
+       color: white;  
+  }    h1, h3 {        
+margin: 10px 0;
+    }  
+  button {       
+ background-color: orange;       
+ cursor: pointer;        
+padding: 10px 20px;        
+border: none;  
+      font-size: 16px;        
+border-radius: 5px;   
+ }   
+ .img-container
+ {       
+ display: flex;
+  flex-wrap: wrap;       
+ justify-content: center;       
+ margin-top: 20px;    
+}   
+ .img-container img
+ {       
+ max-width: 100%; 
+       height: auto;        
+margin: 10px;        
+border-radius: 10px;   
+ }    
+/* Laptop and bigger screens → side by side */    
+@media(min-width: 900px)
+ {       
+ .img-container
+ {           
+ flex-wrap: nowrap; 
+/* side by side */            
+justify-content: center;        
+}        
+.img-container img
+ {            
+width: 40%;
+  /* each image 40% */           
+ height: auto;       
+ }    
+}</style>
+</head>
+<body>   
+ <h1>Thanks For Your Order &#128512;</h1>
+    <h3>We Will Contact Soon!</h3>   
+ <a href="index.html"><button>Go back to Home</button></a>    
+<div class="img-container">        
+<img src="bike.png" alt="Bike 1">     
+<img src="bike3.png" alt="Bike 2">    
+</div>
+</body>
+</html>

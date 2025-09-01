@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bike Shop</title>
+<link rel="icon" type="image" href="pngwing.com.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.id {
+    display: block;
+    cursor: pointer;
+}
+.id a:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+img {
+    width: 450px;   /* Laptop la medium size */
+    height: auto;
+    float: right;
+    margin: 15px 0 15px 20px;
+    border-radius: 10px;
+}
+
+/* Mobile / small screen ku full width */
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
+}
+</style>
+</head>
+<body style="background-color: black;">
+    <h3 style="color: white">@C* Copyrights limited</h3>
+    <p style="color: orange;font-size: 25px;">
+        We happily announce that we are having an experience around <b>20 Years</b><br>
+        We have collaborations with the biggest successful companies like YAMAHA, HONDA, BMW.
+    </p>
+
+    <img src="bike2.png" alt="r15 v3" class="detail">
+
+    <a href="index.html">
+        <button style="background-color:red; cursor:pointer;" class="id">Go back to Home</button>
+    </a>
+</body>
+</html>

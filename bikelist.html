@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bike Shop</title>
+    <link rel="icon" type="image" href="pngwing.com.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: orange;
+            cursor: pointer;
+        }
+
+        .details {
+            color: white;
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .button {
+            background-color: orange;
+            margin-top: 15px;
+            width: 140px;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: red;
+        }
+
+        .detail {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        table {
+            width: 100%;
+            font-size: 20px;
+            border-spacing: 15px;
+            vertical-align: middle;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+
+        /* Responsive Fix */
+        @media (max-width: 768px) {
+            td {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+            .details {
+                text-align: center;
+                margin: 10px 0;
+                padding: 0;
+            }
+
+            .button {
+                width: 80%;
+                height: 45px;
+                margin: 15px auto;
+                display: block;
+            }
+
+            ul li {
+                float: none;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <ul>
+        <li><a href="bikelist.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul><br>
+
+    <table>
+        <tr>
+            <td><img src="bike4.png" alt="lamborgini" class="detail"></td>
+            <td>
+                <h2 class="details">MODEL : <b>KAWASKI</b></h2>
+                <h2 class="details">RUPEES : <b>₹21,00,000</b></h2>
+                <h2 class="details">PUBLISHED : <b>2025</b></h2>
+                <a href="regform.html"><button class="button">ORDER NOW</button></a>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+    <table>
+        <tr>
+            <td><img src="bike1.png" alt="ktm" class="detail"></td>
+            <td>
+                <h2 class="details">MODEL : <b>KTM 290 DUKE</b></h2>
+                <h2 class="details">RUPEES : <b>₹20,00,000</b></h2>
+                <h2 class="details">PUBLISHED : <b>2025</b></h2>
+                <a href="regform.html"><button class="button">ORDER NOW</button></a>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+    <table>
+        <tr>
+            <td><img src="bike2.png" alt="r15 v3" class="detail"></td>
+            <td>
+                <h2 class="details">MODEL : <b>R15 V4</b></h2>
+                <h2 class="details">RUPEES : <b>₹98,000</b></h2>
+                <h2 class="details">PUBLISHED : <b>2025</b></h2>
+                <a href="regform.html"><button class="button">ORDER NOW</button></a>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
